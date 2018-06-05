@@ -1,0 +1,5 @@
+Question: Query all attributes of every Japanese city in the CITY table. The COUNTRYCODE for Japan is JPN.
+
+select * from city where countrycode = 'JPN';
+
+//select all columns from the table city where the country code is JPN
