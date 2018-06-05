@@ -1,5 +1,5 @@
-Question: Query all columns for a city in CITY with the ID 1661.
+--Question: Query all columns for a city in CITY with the ID 1661.
 
 select * from city where id = '1661';
 
-//select all columns from the table city where the id columns equal 1661
+--select all columns from the table city where the id columns equal 1661
