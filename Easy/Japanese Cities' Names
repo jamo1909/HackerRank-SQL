@@ -1,5 +1,5 @@
-Question: Query the names of all the Japanese cities in the CITY table. The COUNTRYCODE for Japan is JPN.
+--Question: Query the names of all the Japanese cities in the CITY table. The COUNTRYCODE for Japan is JPN.
 
 select name from city where countrycode = 'JPN';
 
-// select the name column from the table city where the countrycode is JPN
+--select the name column from the table city where the countrycode is JPN
