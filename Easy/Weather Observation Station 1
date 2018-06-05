@@ -1,5 +1,5 @@
-Question: Query a list of CITY and STATE from the STATION table.
+--Question: Query a list of CITY and STATE from the STATION table.
 
 select city, state from station 
 
-//select the city column and the state column from the station table
+--select the city column and the state column from the station table
