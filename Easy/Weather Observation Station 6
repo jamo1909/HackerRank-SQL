@@ -1,0 +1,5 @@
+--Question: Query the list of CITY names starting with vowels (i.e., a, e, i, o, or u) from STATION. Your result cannot contain duplicates.
+
+select distinct(city) from station where city REGEXP '^(a|e|i|o|u).*$'
+
+-- select (no duplicayes) the city columns from the stations table whee the city contains a or  e or i or o or u using regex
