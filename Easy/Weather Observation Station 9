@@ -1,0 +1,6 @@
+--Question: Query the list of CITY names from STATION that do not start with vowels. 
+--Your result cannot contain duplicates.
+
+select distinct city from station where city not REGEXP '^(a|e|i|o|u).*$';
+
+--select (no duplicates) the city column from the station table where the city doesnt not start with (a,e,i,o,u)
