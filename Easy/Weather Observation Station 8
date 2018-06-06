@@ -1,0 +1,7 @@
+--Question: Query the list of CITY names from STATION which have vowels (i.e., a, e, i, o, and u) as both their first and last characters.
+--Your result cannot contain duplicates.
+
+select distinct city from station where city REGEXP '^(a|e|i|o|u).*(a|e|i|o|u)$';
+
+--select (no duplicate) the city column from the stationtable where the city starts with (a,e,i,o,u) and has any number of characters 
+--in the middle and ends with (a,e,i,o,u)
